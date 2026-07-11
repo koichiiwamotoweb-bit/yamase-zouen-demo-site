@@ -70,6 +70,21 @@ h1 { max-width: 760px; font-size: clamp(34px, 4vw, 57px); letter-spacing: .04em;
 .reason-copy li { padding: 15px 0; display: grid; grid-template-columns: 150px 1fr; gap: 16px; border-bottom: 1px solid var(--line); font-size: 13px; }
 .reason-copy strong { color: var(--green); font-size: 14px; }
 
+.consult { padding: 68px 0; background: #edf0e8; }
+.consult-inner { display: grid; grid-template-columns: .9fr 1.1fr; gap: 70px; align-items: start; }
+.consult-list { border-top: 1px solid #cbd3c7; }
+.consult-list p { margin: 0; padding: 13px 0; display: grid; grid-template-columns: 1.1fr .9fr; gap: 16px; border-bottom: 1px solid #cbd3c7; line-height: 1.6; }
+.consult-list strong { font-size: 14px; }
+.consult-list span { color: #637064; font-size: 13px; }
+
+.garden-shop { padding: 80px 0; display: grid; grid-template-columns: 1.05fr .95fr; gap: 70px; align-items: center; }
+.garden-shop-photo { min-height: 375px; position: relative; overflow: hidden; }
+.garden-shop-copy { padding-right: 24px; }
+.garden-shop-copy > p:not(.section-kicker) { margin: 22px 0; }
+.garden-shop h2 { font-family: var(--serif); font-size: clamp(27px, 3vw, 39px); line-height: 1.4; letter-spacing: .04em; }
+.text-link { display: inline-flex; gap: 12px; align-items: center; padding-bottom: 4px; color: var(--green); border-bottom: 1px solid currentColor; font-size: 13px; font-weight: 800; }
+.text-link span { font-size: 17px; line-height: 1; }
+
 .works { padding: 72px 0 84px; background: var(--sand); }
 .works-heading > p { color: #5f655f; }
 .work-grid { display: grid; grid-template-columns: 1.05fr .95fr; grid-template-rows: 260px 260px; gap: 16px; }
@@ -126,7 +141,7 @@ footer { padding: 22px 0 94px; background: #121a14; color: #c5cbc5; }
   .button-primary { grid-column: span 2; min-width: 0; }
   .button-primary b { font-size: 16px; }
   .intro { padding: 54px 0; }
-  .intro-grid, .reasons, .company, .contact-inner, .area-inner { grid-template-columns: 1fr; gap: 25px; }
+  .intro-grid, .reasons, .consult-inner, .garden-shop, .company, .contact-inner, .area-inner { grid-template-columns: 1fr; gap: 25px; }
   .intro h2, .section-heading h2, .reasons h2, .area h2, .company h2, .contact h2 { font-size: 27px; }
   .services, .works, .company { padding: 53px 0; }
   .section-heading { display: block; margin-bottom: 25px; }
@@ -141,6 +156,11 @@ footer { padding: 22px 0 94px; background: #121a14; color: #c5cbc5; }
   .reason-photo { min-height: 380px; order: 2; }
   .reason-copy { padding: 0; }
   .reason-copy li { grid-template-columns: 1fr; gap: 2px; padding: 12px 0; }
+  .consult { padding: 52px 0; }
+  .consult-list p { grid-template-columns: 1fr; gap: 3px; padding: 12px 0; }
+  .garden-shop { padding: 54px 0; }
+  .garden-shop-photo { min-height: 285px; order: 2; }
+  .garden-shop-copy { padding: 0; }
   .work-grid { grid-template-columns: 1fr; grid-template-rows: 330px 220px 220px; gap: 11px; }
   .work-card-tall { grid-row: auto; }
   .area { padding: 51px 0; }
